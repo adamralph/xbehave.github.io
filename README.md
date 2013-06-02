@@ -1,4 +1,4 @@
 xbehave.github.io
 =================
 
-The xBehave.net website
+This is the source code for [xbehave.github.io](http://xbehave.github.io/).
