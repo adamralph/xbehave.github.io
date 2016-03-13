@@ -1,31 +1,23 @@
-safe:        true
-port:        4000
-url: http://localhost:4000
+safe: true
+port: 4000
+url:  http://localhost:4000
 
-source:      .
-destination: ./_site
-plugins_dir: ./_plugins
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
 
-future:      true
-lsi:         false
-highlighter: rouge
-markdown:    rdiscount
-permalink:   pretty
+future:       true
+lsi:          false
+highlighter:  rouge
+markdown:     rdiscount
+permalink:    pretty
 
 rdiscount:
   extensions: [smart]
 
 kramdown:
-  auto_ids: true,
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
+  auto_ids:       true,
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
   enable_coderay: false
-  
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
