@@ -9,11 +9,7 @@ plugins_dir:  ./_plugins
 future:       true
 lsi:          false
 highlighter:  rouge
-markdown:     rdiscount
 permalink:    pretty
-
-rdiscount:
-  extensions: [smart]
 
 kramdown:
   auto_ids:       true,
